@@ -22,4 +22,7 @@ void swap(int *, int *);
 void insertion_sort_list(listint_t **list);
 listint_t *get_head(listint_t *tmp);
 void selection_sort(int *array, size_t size);
+void quick_sort(int *array, size_t size);
+int partition(int *, int, int, size_t);
+void lomuto_qsort(int *array, int low, int high, size_t size);
 #endif
